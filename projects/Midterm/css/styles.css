@@ -1,0 +1,38 @@
+
+body{
+	background-color: #fc5f1a;
+	color: #010833;
+}
+
+p{
+	font-size: 18px
+	font-family: 'Nunito Sans', sans-serif;
+
+}
+.header{
+	font-size:  120px; 
+
+	font-family: 'Anton', sans-serif;
+} 
+.secondheader{
+	font-size:  60px; 
+	font-family: 'Anton', sans-serif;
+}
+h2{
+	font-family: 'Anton', sans-serif;
+} 
+
+.titlebox{
+	font-size: 70px;
+	letter-spacing: 2.5px
+
+}
+
+.block{
+	font-size: 14px
+}
+
+.center{
+	Ce
+}
+/*colors:; Orange #fc5f1a, Navy #010833, Yellow #ffa500 /*

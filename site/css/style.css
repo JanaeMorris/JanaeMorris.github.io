@@ -9,6 +9,10 @@
 	padding-top: 10%;
 }
 
+p.center{
+	text-align: center;
+}
+
 p{
 	font-family: 'Quicksand', sans-serif;
 	}
