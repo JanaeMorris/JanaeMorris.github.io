@@ -1,26 +1,43 @@
 
 body{
-	background-color: #fc5f1a;
-	color: #010833;
+	
 }
+ div{
+ 	background-color: #fc5f1a;
+	color: #010833;
+ }
 
 p{
-	font-size: 18px
+	font-size: 18px;
 	font-family: 'Nunito Sans', sans-serif;
+	line-height: 1;
+ 	font-weight: 500;
 
 }
+
+.pt {
+		font-style: italic;
+}
+
 .header{
 	font-size:  120px; 
-
+	text-align: center;
 	font-family: 'Anton', sans-serif;
 } 
 .secondheader{
 	font-size:  60px; 
+	text-align: center;
 	font-family: 'Anton', sans-serif;
 }
-h2{
-	font-family: 'Anton', sans-serif;
 } 
+.bio{
+	font-weight: 600; 
+	color: #000000;
+	text-decoration: underline;
+	text-decoration-color: #ffa500;
+	line-height: 
+
+}
 
 .titlebox{
 	font-size: 70px;
@@ -32,7 +49,16 @@ h2{
 	font-size: 14px
 }
 
-.center{
-	Ce
+
+.linespace{
+	line-height: 1;
+	text-align: center;
+
+}
+
+.display{
+	display: block;
+
+
 }
 /*colors:; Orange #fc5f1a, Navy #010833, Yellow #ffa500 /*

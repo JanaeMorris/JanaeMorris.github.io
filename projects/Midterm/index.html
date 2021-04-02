@@ -11,7 +11,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
 	<!-- google fonts -->
 <link rel="preconnect" href="https://fonts.gstatic.com">
-<link href="https://fonts.googleapis.com/css2?family=Anton&family=Nunito+Sans:wght@200&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Anton&family=Nunito+Sans&display=swap" rel="stylesheet">
+
     <!-- bootstrap css -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
     <!-- custom css -->
@@ -20,19 +21,18 @@
 
     <!--NavBar-->
 
-<nav class="navbar navbar-light style="background-color: #FFFFFF;">
+<nav class="navbar navbar-light .bg-white">
   <div class="container-fluid">
     <img src="./Images/logo.png" alt="The pudding logo">
   </div>
 </nav>
-    
+  
 <!--End NavBar-->
 </head>
 <!---->
 <body>
-
+<div>
 <!--page contents go here-->
-
 
 <!--Header Bio-->
 <div class="row">
@@ -43,11 +43,12 @@
 <p class="header">HYPHENATED</p> 
 <p class="secondheader">LAST NAMES IN PRO SPORTS</p>
 
-<p>By Jan Diehm
-Illustrations by Arthur Mount</p>
+<p class="linespace">By<span class="bio"> Jan Diehm </span><br>
+Illustrations By<span class="bio">
+Arthur Mount</span></p>
 
 <!--Article text-->
-
+<div class="pt">
 <p>I’m a big sports fan. My wife likes to joke that we’re one of the last millennial households in the
 country to have a cable subscription. The reason? Sports. Last winter I was watching an NFL game
 featuring one of the league’s most memorably named players: Ha Ha Clinton-Dix. But it wasn’t his
@@ -95,7 +96,7 @@ their jerseys, and because their names are so visible they may have different mo
 hyphenating. Since the 2000s more athletes have been changing their names to honor important people in
 their lives like Maurice Jones-Drew’s grandfather, Mike Sims-Walker’s father, Michael Kidd-Gilchrist’s
 uncle, and Nickell Robey-Coleman’s mother.</p>
-
+</div>
 <div class="col-sm-2"></div>
 </div>
 
@@ -214,7 +215,7 @@ reasons for hyphenation were manually researched and added.
 This article was recreated for class purposes only. All copyright is held by <a href="https://pudding.cool/2019/05/hyphens/">pudding.cool.</a>
 
 </div>
-  
+</div>  
 <!---->
     <!-- bootstrap javascript -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js" integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0" crossorigin="anonymous"></script>
