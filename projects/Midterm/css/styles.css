@@ -1,11 +1,13 @@
 
 body{
-	
+	padding-top: 5%;
 }
  div{
  	background-color: #fc5f1a;
 	color: #010833;
  }
+
+
 
 p{
 	font-size: 18px;
@@ -16,7 +18,7 @@ p{
 }
 
 .pt {
-		font-style: italic;
+	font-style: italic;
 }
 
 .header{
@@ -29,24 +31,27 @@ p{
 	text-align: center;
 	font-family: 'Anton', sans-serif;
 }
-} 
-.bio{
+
+#bio{
 	font-weight: 600; 
 	color: #000000;
 	text-decoration: underline;
 	text-decoration-color: #ffa500;
-	line-height: 
+	line-height: 1;
 
 }
 
-.titlebox{
-	font-size: 70px;
-	letter-spacing: 2.5px
-
+ #titlebox{
+ 	font-family: 'Anton', sans-serif;
+ 	color:  #ffa500;
+ 	text-align: center;
+ 	
+ 	
 }
+
 
 .block{
-	font-size: 14px
+	font-size: 14px;
 }
 
 
@@ -57,8 +62,33 @@ p{
 }
 
 .display{
+
 	display: block;
 
 
 }
+
+.boxheader {
+
+	margin-top: 2%;
+	margin-bottom: 2%;
+	padding-top: 2%;
+	padding-bottom: 2%; 
+	font-family: 'Anton', sans-serif;
+	border-color: #010833; 
+	background-color: #010833;
+	font-size: 70px;
+	letter-spacing: 2.5px;
+
+}
+
+.boxbody {
+	width: 300px; 
+	background-clip: border-box;
+	border-color: white; 
+	background-color: white;
+	letter-spacing: 2.5px;
+
+}
+
 /*colors:; Orange #fc5f1a, Navy #010833, Yellow #ffa500 /*
