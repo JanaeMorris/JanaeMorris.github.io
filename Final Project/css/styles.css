@@ -1,0 +1,13 @@
+body{
+	text-align: center;
+	margin: 75px;
+	line-height: 30px;
+}
+
+p{
+	font-family: 'Roboto', sans-serif;
+}
+
+h3{
+	font-family: 'Cinzel', serif;
+}
