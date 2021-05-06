@@ -1,10 +1,17 @@
 body{
-	margin: 75px;
+	margin: 100px;
 	line-height: 1.7;
     font-family: 'Roboto', sans-serif;
     background-color: #EEE8AA;
 }
 
+h1{
+	font-size: 72px;
+}
+
+p{
+	padding: 25px;
+}
 
 h5{ 
 	font-size: 14;
@@ -17,7 +24,7 @@ h3{
 }
 
 a{
-	color: black;
+	color: grey;
 
 }
 
@@ -25,3 +32,8 @@ a:hover{
 	color: #FFC300; 
 }
 
+.attribute{
+	font-size: 11;
+	font-weight: 150;
+	color: grey;
+}
