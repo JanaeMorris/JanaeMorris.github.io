@@ -2,7 +2,11 @@ body{
 	text-align: center;
 	margin: 75px;
 	line-height: 30px;
+	background-image: url(../../pictures/akp.jpg);
+    background-position: 50% 50%;
+    background-repeat: repeat;
 }
+
 
 p{
 	font-family: 'Roboto', sans-serif;
@@ -11,3 +15,4 @@ p{
 h3{
 	font-family: 'Cinzel', serif;
 }
+
