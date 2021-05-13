@@ -7,6 +7,7 @@ body{
 
 h1{
 	font-size: 72px;
+	font-family: 'Cinzel', serif;
 }
 
 p{
@@ -36,4 +37,10 @@ a:hover{
 	font-size: 11;
 	font-weight: 150;
 	color: grey;
+}  
+
+
+img {
+  width: 100%;
+  height: auto;
 }
